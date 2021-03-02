@@ -11,7 +11,7 @@
         <!--Bookmarks-->
         <scene sceneID="Zgh-yz-TLt">
             <objects>
-                <viewController id="71N-gr-2Iu" sceneMemberID="viewController">
+                <viewController id="71N-gr-2Iu" customClass="ViewController" customModule="idm362_wmo26" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wW8-A1-6QV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                                 </constraints>
                                 <string key="text">
 Bookmarks</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -35,9 +35,14 @@ Bookmarks</string>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="fie-ZA-JUC"/>
                                 </constraints>
-                                <state key="normal" title="Open in Google Maps">
+                                <state key="normal" title="Open in Maps">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Shiny" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Z2-Uf-DUK">
                                 <rect key="frame" x="88" y="98" width="198.5" height="24"/>
@@ -65,9 +70,14 @@ Bookmarks</string>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="5yy-Ee-44z"/>
                                 </constraints>
-                                <state key="normal" title="Open in Google Maps">
+                                <state key="normal" title="Open in Maps">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Beautiful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwF-sl-Ir6">
                                 <rect key="frame" x="74" y="207" width="227.5" height="24"/>
@@ -95,9 +105,14 @@ Bookmarks</string>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="A58-ec-sEg"/>
                                 </constraints>
-                                <state key="normal" title="Open in Google Maps">
+                                <state key="normal" title="Open in Maps">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Safe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PV9-Xt-3KS">
                                 <rect key="frame" x="74" y="316" width="227.5" height="24"/>
@@ -125,9 +140,14 @@ Bookmarks</string>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="RZy-VB-pDi"/>
                                 </constraints>
-                                <state key="normal" title="Open in Google Maps">
+                                <state key="normal" title="Open in Maps">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz1-Rm-ahT">
                                 <rect key="frame" x="91" y="425" width="194.5" height="24"/>
@@ -211,7 +231,7 @@ Bookmarks</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="phI-0I-ojc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-332" y="966.56671664167925"/>
+            <point key="canvasLocation" x="-345" y="1044"/>
         </scene>
         <!--Settings-->
         <scene sceneID="p3s-yv-DHE">
@@ -230,7 +250,7 @@ Bookmarks</string>
                                 </constraints>
                                 <string key="text">
 SETTINGS</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -321,6 +341,11 @@ SETTINGS</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="SAVE"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PD4-Oa-zzw"/>
@@ -388,7 +413,7 @@ SETTINGS</string>
         <!--Nodes-->
         <scene sceneID="fZr-lf-IDw">
             <objects>
-                <viewController id="xQe-sd-SBT" sceneMemberID="viewController">
+                <viewController id="xQe-sd-SBT" customClass="ViewController" customModule="idm362_wmo26" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j72-NV-gqq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -401,14 +426,14 @@ SETTINGS</string>
                                 </constraints>
                                 <string key="text">
 NODE FINDER</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Compass" translatesAutoresizingMaskIntoConstraints="NO" id="Dji-dD-Xyn">
                                 <rect key="frame" x="16" y="160" width="343" height="345"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Node Manifestation Word" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R7H-Dh-sTR">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Node Manifestation Word" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R7H-Dh-sTR">
                                 <rect key="frame" x="16" y="117" width="192" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -419,64 +444,79 @@ NODE FINDER</string>
                                 <state key="normal" title="Manifest">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSM-V0-s4b">
                                 <rect key="frame" x="104" y="547" width="167" height="30"/>
                                 <color key="backgroundColor" red="0.2666666667" green="0.21176470589999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="0WM-YJ-gPZ"/>
+                                    <constraint firstAttribute="width" constant="167" id="QHM-ht-u2r"/>
                                 </constraints>
-                                <state key="normal" title="Open in Google Maps">
+                                <state key="normal" title="Open in Maps">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bookmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jVP-B7-7E0">
-                                <rect key="frame" x="280" y="547" width="22" height="30"/>
-                                <color key="tintColor" red="0.96862745100000003" green="0.1450980392" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="97h-Ef-BjF"/>
-                                    <constraint firstAttribute="width" constant="22" id="qlg-2o-c2V"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPS Coordinates: 39.9527237, -75.163526" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZJ-NQ-65S">
                                 <rect key="frame" x="23" y="513" width="328" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4L-Og-R76">
+                                <rect key="frame" x="280" y="550" width="22" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="CQy-Cy-LcX"/>
+                                    <constraint firstAttribute="height" constant="25" id="hOS-eo-oDA"/>
+                                </constraints>
+                                <color key="tintColor" red="0.96862745100000003" green="0.1450980392" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="bookmark" catalog="system"/>
+                                <connections>
+                                    <action selector="bookmarkBtnFun:" destination="xQe-sd-SBT" eventType="touchUpInside" id="NVa-O6-Rgm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z5R-Lh-8CM"/>
                         <color key="backgroundColor" red="0.066666666669999999" green="0.070588235289999995" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Qwq-5T-Spq" firstAttribute="top" secondItem="Z5R-Lh-8CM" secondAttribute="top" id="1a0-mC-1db"/>
                             <constraint firstItem="Qwq-5T-Spq" firstAttribute="trailing" secondItem="Z5R-Lh-8CM" secondAttribute="trailing" id="2Ng-qD-HO8"/>
-                            <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="jVP-B7-7E0" secondAttribute="trailing" constant="73" id="32N-rQ-6nj"/>
                             <constraint firstItem="Dji-dD-Xyn" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="16" id="4Zn-HW-Fxg"/>
                             <constraint firstItem="eZJ-NQ-65S" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="23" id="4Zv-Ib-ovK"/>
                             <constraint firstItem="Dji-dD-Xyn" firstAttribute="top" secondItem="vbF-ZB-Nu8" secondAttribute="bottom" constant="9" id="8Bb-yQ-z04"/>
-                            <constraint firstItem="jVP-B7-7E0" firstAttribute="leading" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="9" id="8cT-me-xKI"/>
                             <constraint firstItem="Qwq-5T-Spq" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" id="99C-zZ-b6K"/>
+                            <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="x4L-Og-R76" secondAttribute="trailing" constant="73" id="9Gx-vg-xKa"/>
                             <constraint firstItem="Dji-dD-Xyn" firstAttribute="top" secondItem="R7H-Dh-sTR" secondAttribute="bottom" constant="9" id="BKT-QZ-cZa"/>
                             <constraint firstItem="eZJ-NQ-65S" firstAttribute="top" secondItem="Dji-dD-Xyn" secondAttribute="bottom" constant="8" symbolic="YES" id="EAJ-rP-wqf"/>
                             <constraint firstItem="vbF-ZB-Nu8" firstAttribute="top" secondItem="Qwq-5T-Spq" secondAttribute="bottom" constant="37" id="F7v-Q5-Sc2"/>
                             <constraint firstItem="R7H-Dh-sTR" firstAttribute="top" secondItem="Qwq-5T-Spq" secondAttribute="bottom" constant="37" id="FIv-uQ-rcV"/>
-                            <constraint firstItem="jVP-B7-7E0" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="13" id="Gyb-H4-xgG"/>
                             <constraint firstItem="vbF-ZB-Nu8" firstAttribute="leading" secondItem="R7H-Dh-sTR" secondAttribute="trailing" constant="16" id="Md4-Tk-qiy"/>
                             <constraint firstItem="NSM-V0-s4b" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="13" id="Rnk-YY-7w6"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="Dji-dD-Xyn" secondAttribute="trailing" constant="16" id="Uay-yl-hcS"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="vbF-ZB-Nu8" secondAttribute="trailing" constant="16" id="Xpf-Qu-FnV"/>
-                            <constraint firstItem="jVP-B7-7E0" firstAttribute="leading" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="9" id="YWQ-AF-PcQ"/>
+                            <constraint firstItem="x4L-Og-R76" firstAttribute="leading" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="9" id="ZQQ-RU-i2f"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="eZJ-NQ-65S" secondAttribute="trailing" constant="24" id="daO-e4-Ptn"/>
                             <constraint firstItem="vbF-ZB-Nu8" firstAttribute="leading" secondItem="R7H-Dh-sTR" secondAttribute="trailing" constant="16" id="foo-ds-BFW"/>
-                            <constraint firstItem="jVP-B7-7E0" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="13" id="hb1-lb-wxI"/>
-                            <constraint firstItem="NSM-V0-s4b" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="104" id="nN7-Xc-0lP"/>
+                            <constraint firstItem="NSM-V0-s4b" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="104" id="ibb-oy-pp5"/>
+                            <constraint firstItem="x4L-Og-R76" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="16" id="puE-2u-TFM"/>
+                            <constraint firstItem="x4L-Og-R76" firstAttribute="leading" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="9" id="qVd-cz-Y3R"/>
                             <constraint firstItem="R7H-Dh-sTR" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="16" id="v4v-RY-gVf"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="bottom" secondItem="Dji-dD-Xyn" secondAttribute="bottom" constant="113" id="vNq-er-Lrr"/>
-                            <constraint firstItem="jVP-B7-7E0" firstAttribute="leading" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="9" id="vg5-Mq-vEU"/>
-                            <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="jVP-B7-7E0" secondAttribute="trailing" constant="73" id="x2j-Ju-EFe"/>
+                            <constraint firstItem="NSM-V0-s4b" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="13" id="xht-ib-Ywp"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Nodes" image="mappin.circle.fill" catalog="system" selectedImage="mappin.circle.fill" id="guk-Fb-nQx"/>
+                    <connections>
+                        <outlet property="bookmarkBtn" destination="x4L-Og-R76" id="s7a-PB-Muj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72B-Jt-Xqj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

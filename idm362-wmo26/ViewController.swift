@@ -13,7 +13,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    var toggleFlag: Bool = true
+    
+    @IBOutlet weak var bookmarkBtn: UIButton!
+    
+    @IBAction func bookmarkBtnFun(_ sender: Any) {
+        if (toggleFlag == true) {
+            bookmarkBtn.setBackgroundImage(UIImage(systemName: "bookmark"), for: UIControl.State.normal)
 
-
+            toggleFlag = false
+        } else {
+            bookmarkBtn.setBackgroundImage(UIImage(systemName: "bookmark.fill"), for: UIControl.State.normal)
+            toggleFlag = true
+        }
+    }
+    
 }
 
