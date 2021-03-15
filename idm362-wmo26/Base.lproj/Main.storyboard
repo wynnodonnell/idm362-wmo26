@@ -8,187 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Bookmarks-->
-        <scene sceneID="Zgh-yz-TLt">
-            <objects>
-                <viewController id="71N-gr-2Iu" customClass="ViewController" customModule="idm362_wmo26" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wW8-A1-6QV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="na8-N4-067">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
-                                <color key="backgroundColor" red="0.2666666667" green="0.21176470589999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="B2w-QR-y2e"/>
-                                    <constraint firstAttribute="height" constant="80" id="OmS-if-lgc"/>
-                                </constraints>
-                                <string key="text">
-Bookmarks</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GuZ-Mh-0Yx">
-                                <rect key="frame" x="102" y="159" width="167" height="30"/>
-                                <color key="backgroundColor" red="0.2666666667" green="0.21176470589999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="fie-ZA-JUC"/>
-                                </constraints>
-                                <state key="normal" title="Open in Maps">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Shiny" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Z2-Uf-DUK">
-                                <rect key="frame" x="88" y="98" width="198.5" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPS Coordinates: 39.9527238, -75.163546" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLE-A0-usY">
-                                <rect key="frame" x="20" y="130" width="335.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abv-Mk-wwB">
-                                <rect key="frame" x="102" y="268" width="167" height="30"/>
-                                <color key="backgroundColor" red="0.2666666667" green="0.21176470589999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="5yy-Ee-44z"/>
-                                </constraints>
-                                <state key="normal" title="Open in Maps">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Beautiful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwF-sl-Ir6">
-                                <rect key="frame" x="74" y="207" width="227.5" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPS Coordinates: 40.0227238, -76.163586" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbc-se-bak">
-                                <rect key="frame" x="20" y="239" width="335.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Jq-M5-Cwv">
-                                <rect key="frame" x="102" y="377" width="167" height="30"/>
-                                <color key="backgroundColor" red="0.2666666667" green="0.21176470589999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="A58-ec-sEg"/>
-                                </constraints>
-                                <state key="normal" title="Open in Maps">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Safe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PV9-Xt-3KS">
-                                <rect key="frame" x="74" y="316" width="227.5" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPS Coordinates: 39.9227232, -76.163572" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liQ-Pp-Kcj">
-                                <rect key="frame" x="20" y="348" width="335.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LG4-Dd-13l">
-                                <rect key="frame" x="102" y="486" width="167" height="30"/>
-                                <color key="backgroundColor" red="0.2666666667" green="0.21176470589999999" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="RZy-VB-pDi"/>
-                                </constraints>
-                                <state key="normal" title="Open in Maps">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manifestation of Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz1-Rm-ahT">
-                                <rect key="frame" x="91" y="425" width="194.5" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPS Coordinates: 39.0227238, -75.163544" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9N-Xp-A4T">
-                                <rect key="frame" x="20" y="457" width="335.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="456-o0-vcn"/>
-                        <color key="backgroundColor" red="0.066666666669999999" green="0.070588235289999995" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="PV9-Xt-3KS" secondAttribute="trailing" constant="73.329999999999998" id="08i-dZ-WpQ"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="7Z2-Uf-DUK" secondAttribute="trailing" constant="88.329999999999998" id="4VD-fm-1OT"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="xbc-se-bak" secondAttribute="trailing" constant="19.329999999999998" id="8I1-O3-Ios"/>
-                            <constraint firstItem="Dz1-Rm-ahT" firstAttribute="top" secondItem="5Jq-M5-Cwv" secondAttribute="bottom" constant="18" id="8Tp-BI-oig"/>
-                            <constraint firstItem="xbc-se-bak" firstAttribute="top" secondItem="QwF-sl-Ir6" secondAttribute="bottom" constant="8" id="934-51-WdR"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="rLE-A0-usY" secondAttribute="trailing" constant="19.329999999999998" id="9NM-bN-CEX"/>
-                            <constraint firstItem="7Z2-Uf-DUK" firstAttribute="top" secondItem="na8-N4-067" secondAttribute="bottom" constant="18" id="9Vb-PP-Hea"/>
-                            <constraint firstItem="5Jq-M5-Cwv" firstAttribute="top" secondItem="liQ-Pp-Kcj" secondAttribute="bottom" constant="8" id="BcK-il-S5r"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="Abv-Mk-wwB" secondAttribute="trailing" constant="106" id="HHD-Mu-A9q"/>
-                            <constraint firstItem="xbc-se-bak" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="20" id="KeT-7W-2dc"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="H9N-Xp-A4T" secondAttribute="trailing" constant="19.329999999999998" id="L6o-PO-vMj"/>
-                            <constraint firstItem="na8-N4-067" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" id="MXV-Z7-eGs"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="liQ-Pp-Kcj" secondAttribute="trailing" constant="19.329999999999998" id="N2a-z3-7JG"/>
-                            <constraint firstItem="Dz1-Rm-ahT" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="91" id="NBW-p6-dpE"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="LG4-Dd-13l" secondAttribute="trailing" constant="106" id="QVz-qF-ZTw"/>
-                            <constraint firstItem="PV9-Xt-3KS" firstAttribute="top" secondItem="Abv-Mk-wwB" secondAttribute="bottom" constant="18" id="Rhq-KG-ykZ"/>
-                            <constraint firstItem="rLE-A0-usY" firstAttribute="top" secondItem="7Z2-Uf-DUK" secondAttribute="bottom" constant="8" id="S0Q-cT-ocr"/>
-                            <constraint firstItem="na8-N4-067" firstAttribute="trailing" secondItem="456-o0-vcn" secondAttribute="trailing" id="SSj-Bb-xaz"/>
-                            <constraint firstItem="liQ-Pp-Kcj" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="20" id="Sfa-dj-Gqk"/>
-                            <constraint firstItem="H9N-Xp-A4T" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="20" id="TSq-zf-41y"/>
-                            <constraint firstItem="5Jq-M5-Cwv" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="102" id="Xsm-F8-YJZ"/>
-                            <constraint firstItem="liQ-Pp-Kcj" firstAttribute="top" secondItem="PV9-Xt-3KS" secondAttribute="bottom" constant="8" id="YY7-Co-1XQ"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="GuZ-Mh-0Yx" secondAttribute="trailing" constant="106" id="aU4-i3-qcj"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="5Jq-M5-Cwv" secondAttribute="trailing" constant="106" id="bha-KU-LF9"/>
-                            <constraint firstItem="PV9-Xt-3KS" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="74" id="c34-44-0m8"/>
-                            <constraint firstItem="GuZ-Mh-0Yx" firstAttribute="top" secondItem="rLE-A0-usY" secondAttribute="bottom" constant="8" id="dtU-9d-U5X"/>
-                            <constraint firstItem="QwF-sl-Ir6" firstAttribute="top" secondItem="GuZ-Mh-0Yx" secondAttribute="bottom" constant="18" id="eiF-hM-ngM"/>
-                            <constraint firstItem="na8-N4-067" firstAttribute="top" secondItem="456-o0-vcn" secondAttribute="top" id="gkl-R9-icK"/>
-                            <constraint firstItem="Abv-Mk-wwB" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="102" id="iop-if-b6a"/>
-                            <constraint firstItem="7Z2-Uf-DUK" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="88" id="izR-xO-Ex1"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="Dz1-Rm-ahT" secondAttribute="trailing" constant="89.329999999999998" id="kWw-sJ-r9m"/>
-                            <constraint firstItem="456-o0-vcn" firstAttribute="trailing" secondItem="QwF-sl-Ir6" secondAttribute="trailing" constant="73.329999999999998" id="oOr-ek-erL"/>
-                            <constraint firstItem="Abv-Mk-wwB" firstAttribute="top" secondItem="xbc-se-bak" secondAttribute="bottom" constant="8" id="oR8-Us-IgY"/>
-                            <constraint firstItem="LG4-Dd-13l" firstAttribute="top" secondItem="H9N-Xp-A4T" secondAttribute="bottom" constant="8" id="sCb-Nz-Txc"/>
-                            <constraint firstItem="QwF-sl-Ir6" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="74" id="ubk-xz-hFn"/>
-                            <constraint firstItem="H9N-Xp-A4T" firstAttribute="top" secondItem="Dz1-Rm-ahT" secondAttribute="bottom" constant="8" id="wXu-d9-EFu"/>
-                            <constraint firstItem="GuZ-Mh-0Yx" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="102" id="zIr-p0-4kc"/>
-                            <constraint firstItem="rLE-A0-usY" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="20" id="zg4-hb-IgA"/>
-                            <constraint firstItem="LG4-Dd-13l" firstAttribute="leading" secondItem="456-o0-vcn" secondAttribute="leading" constant="102" id="ziR-hx-J9b"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Bookmarks" image="bookmark.fill" catalog="system" selectedImage="bookmark.fill" id="jAp-6N-Q9N"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="phI-0I-ojc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-345" y="1044"/>
-        </scene>
         <!--Settings-->
         <scene sceneID="p3s-yv-DHE">
             <objects>
@@ -433,18 +252,6 @@ NODE FINDER</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4L-Og-R76">
-                                <rect key="frame" x="280" y="550" width="22" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="22" id="CQy-Cy-LcX"/>
-                                    <constraint firstAttribute="height" constant="25" id="hOS-eo-oDA"/>
-                                </constraints>
-                                <color key="tintColor" red="0.96862745100000003" green="0.1450980392" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" backgroundImage="bookmark" catalog="system"/>
-                                <connections>
-                                    <action selector="bookmarkBtnFun:" destination="xQe-sd-SBT" eventType="touchUpInside" id="NVa-O6-Rgm"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z5R-Lh-8CM"/>
                         <color key="backgroundColor" red="0.066666666669999999" green="0.070588235289999995" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -455,7 +262,6 @@ NODE FINDER</string>
                             <constraint firstItem="eZJ-NQ-65S" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="23" id="4Zv-Ib-ovK"/>
                             <constraint firstItem="Dji-dD-Xyn" firstAttribute="top" secondItem="vbF-ZB-Nu8" secondAttribute="bottom" constant="9" id="8Bb-yQ-z04"/>
                             <constraint firstItem="Qwq-5T-Spq" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" id="99C-zZ-b6K"/>
-                            <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="x4L-Og-R76" secondAttribute="trailing" constant="73" id="9Gx-vg-xKa"/>
                             <constraint firstItem="Dji-dD-Xyn" firstAttribute="top" secondItem="R7H-Dh-sTR" secondAttribute="bottom" constant="9" id="BKT-QZ-cZa"/>
                             <constraint firstItem="eZJ-NQ-65S" firstAttribute="top" secondItem="Dji-dD-Xyn" secondAttribute="bottom" constant="8" symbolic="YES" id="EAJ-rP-wqf"/>
                             <constraint firstItem="vbF-ZB-Nu8" firstAttribute="top" secondItem="Qwq-5T-Spq" secondAttribute="bottom" constant="37" id="F7v-Q5-Sc2"/>
@@ -464,12 +270,10 @@ NODE FINDER</string>
                             <constraint firstItem="NSM-V0-s4b" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="13" id="Rnk-YY-7w6"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="Dji-dD-Xyn" secondAttribute="trailing" constant="16" id="Uay-yl-hcS"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="vbF-ZB-Nu8" secondAttribute="trailing" constant="16" id="Xpf-Qu-FnV"/>
-                            <constraint firstItem="x4L-Og-R76" firstAttribute="leading" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="9" id="ZQQ-RU-i2f"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="eZJ-NQ-65S" secondAttribute="trailing" constant="24" id="daO-e4-Ptn"/>
                             <constraint firstItem="vbF-ZB-Nu8" firstAttribute="leading" secondItem="R7H-Dh-sTR" secondAttribute="trailing" constant="16" id="foo-ds-BFW"/>
                             <constraint firstItem="NSM-V0-s4b" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="104" id="ibb-oy-pp5"/>
-                            <constraint firstItem="x4L-Og-R76" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="16" id="puE-2u-TFM"/>
-                            <constraint firstItem="x4L-Og-R76" firstAttribute="leading" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="9" id="qVd-cz-Y3R"/>
+                            <constraint firstItem="Z5R-Lh-8CM" firstAttribute="trailing" secondItem="NSM-V0-s4b" secondAttribute="trailing" constant="104" id="nqk-20-bhW"/>
                             <constraint firstItem="R7H-Dh-sTR" firstAttribute="leading" secondItem="Z5R-Lh-8CM" secondAttribute="leading" constant="16" id="v4v-RY-gVf"/>
                             <constraint firstItem="Z5R-Lh-8CM" firstAttribute="bottom" secondItem="Dji-dD-Xyn" secondAttribute="bottom" constant="113" id="vNq-er-Lrr"/>
                             <constraint firstItem="NSM-V0-s4b" firstAttribute="top" secondItem="eZJ-NQ-65S" secondAttribute="bottom" constant="13" id="xht-ib-Ywp"/>
@@ -477,7 +281,6 @@ NODE FINDER</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Nodes" image="mappin.circle.fill" catalog="system" selectedImage="mappin.circle.fill" id="guk-Fb-nQx"/>
                     <connections>
-                        <outlet property="bookmarkBtn" destination="x4L-Og-R76" id="s7a-PB-Muj"/>
                         <outlet property="label" destination="eZJ-NQ-65S" id="peT-LV-8Z3"/>
                     </connections>
                 </viewController>
@@ -499,7 +302,6 @@ NODE FINDER</string>
                     <connections>
                         <segue destination="xQe-sd-SBT" kind="relationship" relationship="viewControllers" id="TqO-a4-bEa"/>
                         <segue destination="tjG-S2-tgV" kind="relationship" relationship="viewControllers" id="Kzw-1O-c5Z"/>
-                        <segue destination="71N-gr-2Iu" kind="relationship" relationship="viewControllers" id="xzs-yq-7xr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebx-y8-PC7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -509,8 +311,6 @@ NODE FINDER</string>
     </scenes>
     <resources>
         <image name="Compass" width="5400" height="5400"/>
-        <image name="bookmark" catalog="system" width="112" height="128"/>
-        <image name="bookmark.fill" catalog="system" width="112" height="128"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
         <image name="mappin.circle.fill" catalog="system" width="128" height="121"/>
         <namedColor name="AccentColor">
